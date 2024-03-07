@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Her Out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="tenor-gif-embed" data-postid="16366241" data-share-method="host" data-aspect-ratio="1.07383" data-width="100%"><a href="https://tenor.com/view/cute-adorable-please-come-on-really-gif-16366241">Cute Adorable Sticker</a>from <a href="https://tenor.com/search/cute-stickers">Cute Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <h1>Come On Lets Just Go!!! Just give it a go.</h1>
+        <p>Just give it a thought. We will hangout enjoy food. If you still don't like it then. We can part our ways.</p>
+    </div>
+    <div class="button">
+        <a href="yes.html">Yes</a>
+        <a id="No" href="#">No</a>
+    </div>
+</body>
+
+<script >
+    const No = document.getElementById("No");
+
+    function moveElement(element) {
+        element.style.position = "absolute";
+
+        element.style.top = (Math.floor(Math.random()*90+1))+"%";
+        element.style.left = (Math.floor(Math.random()*90+1))+"%";
+    }
+
+    No.addEventListener("mouseenter",(e) =>{
+        moveElement(e.target)
+    });
+
+
+</script>
+</html>
